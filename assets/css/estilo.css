@@ -1,0 +1,33 @@
+.banker{
+    background: url(../img/capitao.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.perfil{
+    border-radius: 70%;
+    border: white solid 0.5rem;
+    
+}
+
+
+@media (max-width: 576px) {  
+    .banker{
+        background-position: right;
+        height: 100vh;
+    }
+}
+
+
+@media (max-width: 768px) {  }
+
+
+@media (max-width: 992px) { }
+
+
+@media (max-width: 1200px) { }
+
+
+@media (max-width: 1400px) { }
