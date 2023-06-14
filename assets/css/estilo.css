@@ -9,7 +9,15 @@
 .perfil{
     border-radius: 70%;
     border: white solid 0.5rem;
+    height: 70%;
     
+}
+
+.myName{
+    font-family: 'Dosis',sans-serif;
+    font-size: 4rem;
+    color: white;
+    font-weight: 600;
 }
 
 
@@ -20,8 +28,28 @@
     }
 }
 
+.perfil{
+    height: 100%;
+}
 
-@media (max-width: 768px) {  }
+
+.myName{
+    font-family: 'Dosis',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media (max-width: 768px) and (max-width: 1200px){  
+        .banker{
+            background-position: right;
+            height: 100vh;
+        }
+    }
+    
+    .perfil{
+        height: 100%;
+    }
 
 
 @media (max-width: 992px) { }
